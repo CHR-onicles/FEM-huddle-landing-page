@@ -63,6 +63,14 @@ export const StyledFooter = styled.section`
         text-align: center;
         margin-top: 1rem;
         font-size: .7rem;
+        
+        p:last-child {
+            color: #ddd;
+        }
+
+        a {
+            color: #fff;
+        }
     }
 
     @media screen and (${breakpoints.small}) {
@@ -123,6 +131,7 @@ export const StyledFooter = styled.section`
             grid-column: 3 / 5;
             grid-row: 2 / 3;
             justify-self: flex-end;
+            text-align: right;
         }
     }
 `;

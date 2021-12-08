@@ -55,10 +55,13 @@ const Footer = () => {
               <FaInstagram />
             </SocialIcon>
           </ul>
-          <p className="copyright">
+          <div className="copyright">
+            <p>
             &copy; Copyright {String(new Date().getFullYear())} Huddle. All
             rights reserved
-          </p>
+            </p>
+            <p>Developed by <a href="https://github.com/CHR-onicles" target="_blank" rel="noopener noreferrer">Divine Anum</a></p>
+          </div>
         </div>
       </Container>
     </StyledFooter>

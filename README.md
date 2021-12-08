@@ -5,7 +5,7 @@ Took a quick Frontend Mentor Challenge to grasp the concept of Styled Components
 ## Table of contents
 
 - [Overview](#overview)
-  - [Demo](#Demo)
+  - [Screenshots](#Screenshots)
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
@@ -16,10 +16,10 @@ Took a quick Frontend Mentor Challenge to grasp the concept of Styled Components
 ## Overview
 
 
-### Demo
+### Screenshots
 
-<img src="./demo/mobile.gif" alt="Mobile view">
-<img src="./demo/desktop.gif" width=800 alt="Desktop view">
+<img src="./screenshots/mobile.png" alt="Mobile view">
+<img src="./screenshots/desktop.png" width=800 alt="Desktop view">
 
 
 ### Links

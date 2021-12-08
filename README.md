@@ -1,4 +1,4 @@
-# Frontend Mentor - Loopstudios landing page solution
+# Frontend Mentor - Huddle Landing Page solution
 
 Took a quick Frontend Mentor Challenge to grasp the concept of Styled Components.
 
@@ -25,7 +25,7 @@ Took a quick Frontend Mentor Challenge to grasp the concept of Styled Components
 ### Links
 
 - Solution URL: [My solution](https://github.com/CHR-onicles/FEM-huddle-landing-page)
-- Live Site URL: [Live site](https://lpstudios-lp.vercel.app)
+- Live Site URL: [Live site](https://fem-huddle-lp.vercel.app)
 
 ## My process
 
@@ -37,7 +37,7 @@ Took a quick Frontend Mentor Challenge to grasp the concept of Styled Components
 
 ### What I learned
 
-I reinforced knowledge on responsiveness.
+Understood how to work with Styled Components and ReactJS. I also reinforced CSS grids 👍🏼.
 
 ## Author
 

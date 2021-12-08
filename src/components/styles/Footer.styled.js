@@ -153,7 +153,6 @@ export const SocialIcon = styled.li`
 `;
 
 export const FooterCTA = styled.div`
-    
     position: absolute;
     top: 0;
     left: 50%;
@@ -161,9 +160,10 @@ export const FooterCTA = styled.div`
     width: min(95%, 500px);
     padding: 2.2rem 0 1.5rem;
     margin: 0 auto;
-    background-color: #fff;
+    background: #fff;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0,0,0,.1);
+    z-index: 1;
 
     h2 {
         color: hsl(192, 100%, 9%);

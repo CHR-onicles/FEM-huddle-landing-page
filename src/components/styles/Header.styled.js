@@ -1,9 +1,17 @@
 import styled from "styled-components";
 import { breakpoints } from "./Global";
+import SmallHero from "../../images/bg-hero-mobile.svg";
+import BigHero from "../../images/bg-hero-desktop.svg";
 
 export const StyledHeader = styled.header`
-    background: ${({ theme }) => theme.colors.header};
+    background: url(${SmallHero}) center / cover no-repeat,
+    linear-gradient(${({ theme }) => theme.colors.header}, ${({ theme }) => theme.colors.header});
     padding: 40px 0;
+
+    @media screen and (${breakpoints.medium}) {
+        background: url(${BigHero}) center / cover no-repeat,
+    linear-gradient(${({ theme }) => theme.colors.header}, ${({ theme }) => theme.colors.header});
+    }
 `;
 
 export const Nav = styled.nav`
@@ -75,8 +83,14 @@ export const Hero = styled.section`
 
         img {
             margin-top: 0;
-            max-width: 600px;
+            max-width: 500px;
             /* outline: 1px solid red; */
+        }
+    }
+
+    @media screen and (${breakpoints.large}) {
+        img {
+            max-width: 600px;
         }
     }
 `;
